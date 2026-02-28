@@ -1,6 +1,6 @@
 # Quad-Vision-AutoDrive: Autonomous Vehicle Subsystems 🚘
 
-This repository contains the source code for an autonomous vehicle project designed to handle multiple real-world scenarios. It originally existed as several standalone scripts and has been restructured into a unified system capable of running on a Raspberry Pi using a Pi Camera and an L298N Motor Driver. 
+This repository contains the source code for an autonomous vehicle project designed to handle multiple real-world scenarios. The system is optimized to run on a Raspberry Pi using a Pi Camera and an L298N Motor Driver, providing a unified solution for road navigation and safety. 
 
 ## 🚗 Project Features
 - **Lane Tracking:** Uses OpenCV computer vision pipelines (Hough transforms, Sobel edge detection, and perspective warping) to calculate lane curvature and keep the vehicle centered.
@@ -11,6 +11,7 @@ This repository contains the source code for an autonomous vehicle project desig
 ## 📁 Repository Structure
 ```
 .
+├── archive_legacy        # Original prototypes and legacy scripts
 ├── data
 │   ├── cal_pickle.p         # Camera calibration parameters
 │   ├── project_video.mp4    # Demo video for lane tracking
